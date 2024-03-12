@@ -1,6 +1,4 @@
 import sqlite3
-
-print("helloworld")
 class Database:
   def __init__(self, db_directory):
     self.db_directory = db_directory
@@ -30,4 +28,6 @@ class Database:
     arg = self.cur.execute(string)
     self.con.commit()
     return arg
-    
+
+if __name__ == "__main__":
+  Database().run()
