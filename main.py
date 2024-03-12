@@ -6,3 +6,4 @@ database.add_entries("houses", {"name":"Bob's house", "price":"1500 dollars", "s
 print(database.fetch_all_entries("houses"))
 menu = menu.Menu()
 menu.run()
+print("hello")
