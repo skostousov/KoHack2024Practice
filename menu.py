@@ -1,8 +1,8 @@
 class Menu:
   def __init__(self):
     self.choices = {
-      "1":self.otherfunction(),
-      "2":self.otherfunction
+      "1":self.otherfunction,
+      "2":self.anotherfunction
     }
     pass
   def run(self):
